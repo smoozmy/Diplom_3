@@ -79,6 +79,4 @@ class TestFeedOrdersPage:
         feed_page = FeedPage(driver)
         feed_page.open_feed_page()
 
-        number_in_at_work = feed_page.check_number_order_in_at_work()
-
-        assert number == number_in_at_work
+        assert feed_page.wait_for_order_in_at_work(number)

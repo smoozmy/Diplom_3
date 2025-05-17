@@ -1,3 +1,4 @@
+from selenium.webdriver.support.wait import WebDriverWait
 import src.urls
 from locators.feed_page_locators import FeedPageLocators
 from pages.base_page import BasePage
@@ -28,11 +29,14 @@ class FeedPage(BasePage):
         orders = self.find_all_elements(FeedPageLocators.ORDER_NUMBER_BOX)
         return any(number in order.text for order in orders)
 
-    @allure.step('Проверяем появление номер заказа в разделе В работе на Ленте заказов')
-    def check_number_order_in_at_work(self):
-        self.wait_for_element(FeedPageLocators.ORDER_NUMBER_LIST, 'visibility')
-        counter = self.find_element(FeedPageLocators.ORDER_NUMBER_LIST)
-        return counter.text.lstrip('0')
+    @allure.step('Ожидаем появления заказа в статусе "В работе"')
+    def wait_for_order_in_at_work(self, order_number):
+        WebDriverWait(self.driver, 10).until(
+            lambda driver: order_number in [
+                el.text.lstrip('0') for el in self.find_all_elements(FeedPageLocators.ORDER_NUMBER_LIST)
+            ]
+        )
+        return True
 
     @allure.step('Проверяем счетчик Выполнено за все время')
     def get_counter_all_time_text(self):

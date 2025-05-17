@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 import allure
 
 
-class PasswordRecoveryPage(BasePage):
+class ResetPasswordPage(BasePage):
     @allure.step('Открываем страницу восстановления пароля')
     def open_password_recovery_page(self):
         self.open_url(src.urls.PASSWORD_RECOVERY_PAGE_URL)

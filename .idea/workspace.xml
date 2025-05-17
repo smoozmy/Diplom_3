@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41d8177-f9f0-47f7-bac4-7e84f69ba06c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_profile_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_reset_password_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/feed_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/feed_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reset_password_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reset_password_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_feed_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_feed_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +43,12 @@
     "Python tests.Python tests for tests.test_feed_page.TestFeedOrdersPage.test_check_order_status_in_work_after_order_creation.executor": "Run",
     "Python tests.Python tests for tests.test_main_page.TestMainPage.executor": "Run",
     "Python tests.Python tests for tests.test_profile_page.TestAccountPage.executor": "Run",
+    "Python tests.Python tests for tests.test_reset_password_page.TestResetPassword.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop3"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_profile_page.TestAccountPage">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_feed_page.TestFeedOrdersPage">
     <configuration name="Python tests for tests.test_feed_page.TestFeedOrdersPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="ENV_FILES" value="" />
@@ -76,7 +79,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_main_page.TestMainPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_feed_page.TestFeedOrdersPage.test_check_sync_history_order_and_feed_orders" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Diplom_3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +90,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_main_page.TestMainPage&quot;" />
+      <option name="_new_target" value="&quot;tests.test_feed_page.TestFeedOrdersPage.test_check_sync_history_order_and_feed_orders&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -106,12 +109,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_reset_password_page.TestResetPassword" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_reset_password_page.TestResetPassword&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_profile_page.TestAccountPage" />
-        <item itemvalue="Python tests.Python tests for tests.test_feed_page.TestFeedOrdersPage.test_check_order_status_in_work_after_order_creation" />
         <item itemvalue="Python tests.Python tests for tests.test_feed_page.TestFeedOrdersPage" />
-        <item itemvalue="Python tests.Python tests for tests.test_main_page.TestMainPage" />
+        <item itemvalue="Python tests.Python tests for tests.test_feed_page.TestFeedOrdersPage.test_check_sync_history_order_and_feed_orders" />
+        <item itemvalue="Python tests.Python tests for tests.test_feed_page.TestFeedOrdersPage.test_check_order_status_in_work_after_order_creation" />
+        <item itemvalue="Python tests.Python tests for tests.test_reset_password_page.TestResetPassword" />
+        <item itemvalue="Python tests.Python tests for tests.test_profile_page.TestAccountPage" />
       </list>
     </recent_temporary>
   </component>
