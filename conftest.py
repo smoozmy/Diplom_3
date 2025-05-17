@@ -5,26 +5,17 @@ import src.generators
 import src.urls
 import src.data
 import chromedriver_autoinstaller
-from selenium.webdriver.firefox.service import Service as FirefoxService
-from webdriver_manager.firefox import GeckoDriverManager
 
 
-@pytest.fixture(scope='function', params=['chrome', 'firefox'])
-def driver(request):
-
-    if request.param == 'chrome':
-        chromedriver_autoinstaller.install()
-
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--start-maximized')
-
-        web_driver = webdriver.Chrome(options=chrome_options)
-    elif request.param == 'firefox':
-        web_driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
-        web_driver.maximize_window()
-
-    yield web_driver
-    web_driver.quit()
+@pytest.fixture()
+def driver():
+    chromedriver_autoinstaller.install()
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(options=options)
+    driver.maximize_window()
+    yield driver
+    driver.quit()
 
 
 @pytest.fixture(scope='function')
