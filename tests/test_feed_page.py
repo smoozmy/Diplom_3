@@ -67,7 +67,7 @@ class TestFeedOrdersPage:
 
         counter_after = int(feed_page.get_counter_today_text())
 
-        assert counter_after > counter_before 
+        assert counter_after > counter_before
 
     @allure.title('Проверка наличия номера заказа в статусе В работе после его создания')
     def test_check_order_status_in_work_after_order_creation(self, driver, login_user_and_create_order):
