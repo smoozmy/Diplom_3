@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-class PasswordRecoveryPageLocators:
+class ResetPasswordPageLocators:
     PASSWORD_RECOVERY_HEADER_TEXT = By.XPATH, '//h2[text()="Восстановление пароля"]'
     EMAIL_INPUT_FORM = By.XPATH, '//label[text()="Email"]/../input'
     PASSWORD_RECOVERY_BUTTON = By.XPATH, '//button[text()="Восстановить"]'

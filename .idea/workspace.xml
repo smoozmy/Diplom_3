@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41d8177-f9f0-47f7-bac4-7e84f69ba06c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/locators/feed_page_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators/login_page_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators/main_page_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators/profile_page_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators/reset_password_page_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/feed_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/profile_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/reset_password_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/READM.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/profile_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/profile_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/reset_password_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/reset_password_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

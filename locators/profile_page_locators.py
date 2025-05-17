@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-class AccountPageLocators:
+class ProfilePageLocators:
     ACCOUNT_PAGE_MENU_BUTTON = By.XPATH, './/p[contains(@class, "AppHeader_header__linkText") and text()="Личный Кабинет"]'
     ORDER_HISTORY_MENU_BUTTON = By.XPATH, '//a[text()="История заказов"]'
     ORDER_NUMBER_BOX = By.XPATH, './/div[contains(@class, "OrderHistory_textBox")]/p[@class="text text_type_digits-default"]'
