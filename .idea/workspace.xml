@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41d8177-f9f0-47f7-bac4-7e84f69ba06c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/locators/profile_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/profile_page_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/reset_password_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/reset_password_page_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
